@@ -48,23 +48,6 @@ $(document).ready(function() {
                 .html(css)
                 .appendTo("head");
         });
-        // Check to see if we're using a light theme - if so, add orange gradient to slogan
-        if (activeThemeType === "dim") {
-            // The string contains any of the substrings
-            $('#siteSlogan').addClass("slogan-gradient-dark");
-            $('#siteSlogan').removeClass("slogan-gradient");
-        }
-        if (activeThemeType === "dark") {
-            // The string contains any of the substrings
-            $('#siteSlogan').addClass("slogan-gradient-dark");
-            $('#siteSlogan').removeClass("slogan-gradient");
-        }
-        if (activeThemeType === "light") {
-            // The string contains any of the substrings
-            $('#siteSlogan').removeClass("slogan-gradient-dark");
-            $('#siteSlogan').addClass("slogan-gradient");
-        }
-    } else {}
     $(document).ready(function() {
         $("body").on("click change", "#theme li", function() {
             var string = generateRandomString(10);
@@ -75,24 +58,6 @@ $(document).ready(function() {
                     .html(css)
                     .appendTo("head");
             });
-            // Check to see if we're using a light theme - if so, add orange gradient to slogan
-            var newThemeType = $(this).attr("theme-type");
-            if (newThemeType === "dim") {
-                // The string contains any of the substrings
-                $('#siteSlogan').removeClass("slogan-gradient");
-                $('#siteSlogan').addClass("slogan-gradient-dark");
-            }
-            if (newThemeType === "dark") {
-                // The string contains any of the substrings
-                $('#siteSlogan').removeClass("slogan-gradient");
-                $('#siteSlogan').addClass("slogan-gradient-dark");
-            }
-            if (newThemeType === "light") {
-                // The string contains any of the substrings
-                $('#siteSlogan').removeClass("slogan-gradient-dark");
-                $('#siteSlogan').addClass("slogan-gradient");
-            }
-
             var selected = "logo"; //$(this).attr("id");
             var theTheme = $(this).attr("rel");
             var theID = $(this).attr("id");
