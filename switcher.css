@@ -1,0 +1,100 @@
+	i.theme-icon {
+	  float: right;
+	  font-size: 1.2em;
+  }
+  .theme-row-header {
+	  display: block;
+	  width: 100%;
+	  padding: var(--bs-dropdown-item-padding-y) var(--bs-dropdown-item-padding-x);
+	  clear: both;
+	  font-weight: 600;
+	  color: var(--bs-dropdown-link-color);
+	  text-align: inherit;
+	  white-space: nowrap;
+	  background-color: transparent;
+	  border: 0;
+  }
+  .swatch {
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	float: right;
+	margin-top: 4px;
+  }
+  .swatch-default {
+	background: linear-gradient(-45deg, #18bc9c 50%, white 50%, #FFFFFF 50%);
+	border: 1px solid #18bc9c;
+  }
+  .swatch-daylight {
+	background: linear-gradient(-45deg, #367DFF 50%, white 50%, #FFFFFF 50%);
+	border: 1px solid #367DFF;
+  }
+  .swatch-summertime {
+	background: linear-gradient(-45deg, #C6DDE9 50%, white 50%, #FFFFFF 50%);
+	border: 1px solid #C6DDE9;
+  }
+  .swatch-ubuntu {
+	background: linear-gradient(-45deg, #772954 50%, white 50%, #FFFFFF 50%);
+	border: 1px solid #772954;
+  }
+  .swatch-anthracite {
+	background: linear-gradient(-45deg, #B4CCFA 50%, white 50%, #1F242E 50%);
+	border: 1px solid #4c525f;
+  }
+  .swatch-darkly {
+	background: linear-gradient(-45deg, #18bc9c 50%, white 50%, #222222 50%);
+	border: 1px solid #18bc9c;
+  }
+  .swatch-greybird {
+	background: linear-gradient(-45deg, #C0C0B8 50%, white 50%, #3F4044 50%);
+	border: 1px solid #757575;
+  }
+  .swatch-nord {
+	background: linear-gradient(-45deg, #8FBCBB 50%, white 50%, #242931 50%);
+	border: 1px solid #88c0d0;
+  }
+  .swatch-slate {
+	background: linear-gradient(-45deg, #DDDDDD 50%, white 50%, #282B30 50%);
+	border: 1px solid #aaaaaa;
+  }
+  .swatch-blackout {
+	background: linear-gradient(-45deg, #FF550B 50%, white 50%, #000000 50%);
+	border: 1px solid #242424;
+  }
+  .swatch-facetube {
+	background: linear-gradient(-45deg, #AAAAAA 50%, white 50%, #181818 50%);
+	border: 1px solid #303030;
+  }
+  .swatch-midnight {
+	background: linear-gradient(-45deg, #66d3eb 50%, white 50%, #00202B 50%);
+	border: 1px solid #0a7699;
+  }
+  .swatch-tempest {
+	background: linear-gradient(-45deg, #2a9fd6 50%, white 50%, #060606 50%);
+	border: 1px solid #282828;
+  }
+  .swatch-tenebrous {
+	background: linear-gradient(-45deg, #53C8F3 50%, white 50%, #000000 50%);
+	border: 1px solid #343536;
+  }
+	  .dropdown-menu {
+	  min-width: 200px;
+  }
+  .dropdown-menu.columns-2 {
+	  min-width: 400px;
+  }
+  .dropdown-menu.columns-3 {
+	  min-width: 650px;
+  }
+  #theme li {
+	  list-style: none;
+  }
+  .margin-right {
+	  margin-right: -20px;
+  }
+  @media (max-width: 767px) {
+	  .dropdown-menu.multi-column {
+		  min-width: 240px !important;
+		  overflow-x: hidden;
+	  }
+  }
