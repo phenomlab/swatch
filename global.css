@@ -142,7 +142,7 @@ ul.circles, li.circles {
 }
 li.circles:before {
     content: "\f0a9";
-    font-family: "Font Awesome 6 Pro";
+    font-family: "font awesome 6 free";
     margin-right: 10px;
     color: var(--bs-link-color);
 }
@@ -704,7 +704,7 @@ li.dropdown-item:hover, li.dropdown-item:active {
     top: -2px;
     color: var(--bs-solved-color);
     content: "\f058";
-    font-family: "Font Awesome 6 Pro";
+    font-family: "font awesome 6 free";
     font-size: 1.5rem;
     font-weight: 900;
     position: absolute;
@@ -729,9 +729,9 @@ h5.resolved-header {
 }
 h5.resolved-header:before {
     content: "\f648";
-    font-family: "Font Awesome 6 Pro";
+    font-family: "font awesome 6 free";
     font-size: 1.5rem;
-    font-weight: 300;
+    font-weight: 900;
     line-height: 1.2;
     vertical-align: bottom;
     margin-right: 10px;
@@ -764,9 +764,9 @@ h5.unresolved-header {
 }
 h5.unresolved-header:before {
     content: "\f06a";
-    font-family: "Font Awesome 6 Pro";
+    font-family: "font awesome 6 free";
     font-size: 1.5rem;
-    font-weight: 300;
+    font-weight: 900;
     line-height: 1.2;
     vertical-align: bottom;
     margin-right: 10px;
@@ -797,9 +797,9 @@ h5.unreplied-header {
 }
 h5.unreplied-header:before {
     content: "\e36d";
-    font-family: "Font Awesome 6 Pro";
+    font-family: "font awesome 6 free";
     font-size: 1.5rem;
-    font-weight: 300;
+    font-weight: 900;
     line-height: 1.2;
     vertical-align: bottom;
     margin-right: 10px;
@@ -857,7 +857,7 @@ span.tag-topic-count.text-secondary.fw-semibold.text-nowrap.human-readable-numbe
 .accordion-button:after {
     content: "\f077";
     background-image: none !important;
-    font-family: "Font Awesome 6 Pro";
+    font-family: "font awesome 6 free";
     color: var(--bs-body-color);
 }
 .p-3 {
@@ -1168,7 +1168,7 @@ h5 {
 }
 
 .fa {
-    font-weight: 400;
+    font-weight: 900;
 }
 
 .recent-card {
@@ -1243,7 +1243,7 @@ li.unread.mb-2.p-1 {
 }
 
 i.unread.fa.fa-2xs.fa-circle.text-primary {
-    font-weight: 600;
+    font-weight: 900;
 }
 
 .iframely-link .iframely-container {
@@ -1587,13 +1587,13 @@ a.user-level-topic i {
 }
 .tag-list .fw-semibold.text-nowrap.tag-item.w-100.text-truncate:before {
     content: "\f507";
-    font-family: "Font Awesome 6 Pro";
+    font-family: "font awesome 6 free";
     font-size: 1.1em;
     margin-right: 10px;
     min-width: 1.5em;
     min-height: 1em;
     color: var(--bs-link-color);
-    font-weight: 400;
+    font-weight: 900;
 }
 .tag-list .text-xs.text-muted.text-nowrap.tag-topic-count {
     font-size: 16px !important;
@@ -1819,7 +1819,7 @@ textarea {
         width: 22px;
         display: block;
         content: "\f2f7";
-        font-family: "Font Awesome 6 Pro";
+        font-family: "font awesome 6 free";
         font-size: 2em;
         color: var(--bs-user-level);
     }
@@ -1856,7 +1856,7 @@ textarea {
         width: 22px;
         display: block;
         content: "\f2f7";
-        font-family: "Font Awesome 6 Pro";
+        font-family: "font awesome 6 free";
         font-size: 2em;
         color: var(--bs-user-level);
     }
@@ -1948,7 +1948,7 @@ textarea {
     z-index: 1;
     background: var(--bs-body-bg);
     color: var(--bs-body-color);
-    font-family: "Font Awesome 6 Pro";
+    font-family: "font awesome 6 free";
     font-size: 2rem;
     width: 35px;
 }
